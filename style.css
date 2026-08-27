@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #a1684b;
+}
+
+
+.navbar-dulce {
+    background-color: #d49379;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-dulce .nav-link {
+    color: white;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.navbar-dulce .nav-link:hover,
+.navbar-dulce .nav-link.active {
+    color: #080304;
+}
+
+
+
+
+.hero {
+    min-height: 600px;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("img/café-rosa-interior-dulces-postres-tienda-vende-pasteles-macarons-croissants-panecillos-ambiente-fantástico-con-un-toque-384811059.webp");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #f4c27a;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.btn-dulce {
+    background-color: #b3623a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-dulce:hover {
+    background-color: #ac5c3c;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #911591;
+    font-weight: bold;
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
+
+.imagen-nosotros {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#nosotros h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#nosotros p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+
+.menu-section {
+    background-color: #f5e5d3;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.producto-info {
+    padding: 25px;
+}
+
+.producto-info h3 {
+    color: #5c3525;
+    font-size: 23px;
+}
+
+.producto-info p {
+    color: #666;
+    min-height: 50px;
+}
+
+.precio {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #8b4e2f;
+    margin-bottom: 15px;
+}
+
+
+.contacto {
+    background-color: #5c3525;
+    color: white;
+    padding: 70px 0;
+}
+
+.contacto h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.contacto p {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #321c13;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .navbar-dulce .nav-link {
+        margin-left: 0;
+    }
+
+}
